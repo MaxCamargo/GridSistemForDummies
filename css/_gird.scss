@@ -1,0 +1,36 @@
+@import './skin';
+// ==========================================================================
+// 12 grid System
+// ==========================================================================
+
+
+$c: $cols;
+$g: $gap;
+
+@mixin grid-system($mq){
+   .#{ $mq }{
+      flex: 1 0 0;
+   }
+
+   @for $col from 1 through $c{
+      .#{ $mq }-#{$col}{
+          flex: 0 0 (100% / $c)* $col;
+          max-width: (100% / $c)* $col;
+      }
+   }
+}
+
+@include grid-system(col);
+
+@media screen and (min-width: 578px){
+   @include grid-system(sm-col);
+}
+
+@media screen and (min-width: 1024px){
+   @include grid-system(md-col);
+}
+
+
+// ==========================================================================
+// 12 grid System
+// ==========================================================================

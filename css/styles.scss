@@ -1,0 +1,86 @@
+@import './variables';
+
+/*
+    ** All elements border-box
+*/
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+    ** Root element font size
+    ** No default margins and paddings
+*/
+html,
+body {
+    font-size: $font-size;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    **root elements display block
+*/
+html,
+body {
+    display: block;
+}
+
+/*
+    ** Body main style
+*/
+body {
+    line-height: 1.317101995;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+    font-family: $fontPrimary;
+}
+
+/*Grid Sistem*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: $g / 2;
+    padding-right: $g / 2;
+
+    height: 100vh;
+    max-width: 1024px;
+}
+
+.gs-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: $g / -2;
+    margin-right: $g / -2;
+    /*justify-content: center;*/
+}
+
+
+/*Agrgando un selector de estilos*/
+
+[class*="col-"],
+.col{
+    width: 100%;
+    max-width: 100%;
+    padding-left: $g / 2;
+    padding-right: $g / 2;
+    margin: .4rem 0;
+}
+
+
+/*Grid Sistem*/
+
+.col-ex{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid #c553a3!important;
+}
+
+.bor{
+    border: 1px solid #c553a3!important;
+}

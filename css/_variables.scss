@@ -1,0 +1,35 @@
+@import './skin';
+@import './gird';
+// ==========================================================================
+// FontStack
+// ==========================================================================
+
+$font-size: $fSize;
+$font: $fontPrimary ;
+$fontTitle: $fontSecondary;
+
+$colors: (
+   primary: (
+      base     : $primaryBase,
+      light    : $primaryLight,
+      dark     : $primaryDark
+   ),
+   secondary: (
+      base     : $secondaryBase,
+      light    : $secondaryLight,
+      dark     : $secondaryDark
+   ),
+   grayscale: (
+      white    : $grayscaleWhite,
+      gray-1   : $grayscaleLevel-1,
+      gray-2   : $grayscaleLevel-2,
+      gray-3   : $grayscaleLevel-3,
+      gray-4   : $grayscaleLevel-4,
+      gray-5   : $grayscaleLevel-5,
+      gray-6   : $grayscaleLevel-6,
+      gray-7   : $grayscaleLevel-7,
+      base     : $grayscaleBase,
+      black    : $grayscaleBlack
+   ),
+
+);

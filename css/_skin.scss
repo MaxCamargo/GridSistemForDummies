@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&family=Roboto:wght@100&display=swap');
+
+// ==========================================================================
+// Grid System
+// ==========================================================================
+
+$cols      : 12;
+$gap       : 24px;
+
+
+// ==========================================================================
+// External Source Definitions 
+// ==========================================================================
+$fontPrimary        : 'Roboto', sans-serif;
+$fontSecondary      : 'Fraunces', serif;
+$fSize              : .9rem;
+
+// Primary Colors
+$primaryBase        : #3e98cc !default; //$primary-brand(OLD)
+$primaryLight       : #3e98cc !default; //$primary-brand-light(OLD)  *On revision; its seams that it was always equal to the base color.
+$primaryDark        : #005f9d !default; //$primary-brand-dark(OLD)
+
+// Secondary colors
+$secondaryBase      : #6fb453 !default; //$tertiary-brand(OLD)
+$secondaryLight     : #9ee060 !default; //tertiary-brand-light(OLD)
+$secondaryDark      : #609c47 !default; //$tertiary-brand-dark(OLD)
+
+// GrayScale Colors
+$grayscaleWhite    : #ffffff !default;
+$grayscaleLevel-1  : #f2f2f2 !default; 
+$grayscaleLevel-2  : #eeeeee !default;
+$grayscaleLevel-3  : #cccccc !default;
+$grayscaleLevel-4  : #999999 !default;
+$grayscaleLevel-5  : #666666 !default;
+$grayscaleLevel-6  : #333333 !default;
+$grayscaleLevel-7  : #4A4A4A !default; 
+$grayscaleBase     : #1b1b1b !default;
+$grayscaleBlack    : #000000 !default;

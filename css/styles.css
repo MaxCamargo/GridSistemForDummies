@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;300;600&family=Roboto:wght@100&display=swap");
+.col {
+  flex: 1 0 0;
+}
+
+.col-1 {
+  flex: 0 0 8.3333333333%;
+  max-width: 8.3333333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.6666666667%;
+  max-width: 41.6666666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.3333333333%;
+  max-width: 58.3333333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.3333333333%;
+  max-width: 83.3333333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.6666666667%;
+  max-width: 91.6666666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 578px) {
+  .sm-col {
+    flex: 1 0 0;
+  }
+
+  .sm-col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .sm-col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .sm-col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .sm-col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .sm-col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .sm-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .sm-col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .sm-col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .sm-col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .sm-col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .sm-col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .sm-col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .md-col {
+    flex: 1 0 0;
+  }
+
+  .md-col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .md-col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .md-col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .md-col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .md-col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .md-col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .md-col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .md-col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .md-col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .md-col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .md-col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .md-col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+/*
+    ** All elements border-box
+*/
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    ** Root element font size
+    ** No default margins and paddings
+*/
+html,
+body {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+    **root elements display block
+*/
+html,
+body {
+  display: block;
+}
+
+/*
+    ** Body main style
+*/
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  padding: 2rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Grid Sistem*/
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 100vh;
+  max-width: 1024px;
+}
+
+.gs-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+  /*justify-content: center;*/
+}
+
+/*Agrgando un selector de estilos*/
+[class*=col-],
+.col {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0.4rem 0;
+}
+
+/*Grid Sistem*/
+.col-ex {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px solid #c553a3 !important;
+}
+
+.bor {
+  border: 1px solid #c553a3 !important;
+}
+/*# sourceMappingURL=styles.css.map */
