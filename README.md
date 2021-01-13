@@ -1,12 +1,12 @@
 # Grid System For Dummies
 
-_Hola les traigo un ejemplo sencillo y basico para crae un sistema de 12 columnas que he seguido de un tutorial muy sencillo y genail_
+_Hola, este es un ejemplo sencillo y basico para crear un sistema de 12 columnas basico y sencillo, lo he realizado seguido de un tutorial genial_
 
 ## Comenzando 🚀
 
 _El tuturiala seguir es:https://www.youtube.com/watch?v=e6wAHRf3H8Y_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Mira **el video** para conocer como realizar el proyecto.
 
 ### Gracias 📋
 
