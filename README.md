@@ -4,7 +4,7 @@ _Hola, este es un ejemplo sencillo y básico para crear un sistema de 12 columna
 
 ## Comenzando 🚀
 
-_El tuturial a seguir es:https://www.youtube.com/watch?v=e6wAHRf3H8Y_
+_El tutorial a seguir es:https://www.youtube.com/watch?v=e6wAHRf3H8Y_
 
 Mira **el video** para conocer como realizar el proyecto.
 
